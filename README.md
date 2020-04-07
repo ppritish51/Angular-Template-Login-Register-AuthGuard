@@ -1,6 +1,8 @@
 # Details
 - This project was generated with Angular CLI version 8.3.20.
 
+## Just clone this and install packages and start to work
+
 ## This template contains:
 
 - Login Page
@@ -13,7 +15,22 @@
 - One to stop access to chat room without login
 - Other to stop access for login/registration page once logged in, they can be only accessed again when logged out
 
-# Just clone this and install packages and start to work
+### Welcome page
+![alt text](https://github.com/ppritish51/Angular-Template-Login-Register-AuthGuard/blob/master/site%20images/welcome.JPG)
+### can't access chat room without login
+![alt text](https://github.com/ppritish51/Angular-Template-Login-Register-AuthGuard/blob/master/site%20images/auth.JPG)
+### prompted to login 
+![alt text](https://github.com/ppritish51/Angular-Template-Login-Register-AuthGuard/blob/master/site%20images/login.JPG)
+### access to chat room when logged in
+![alt text](https://github.com/ppritish51/Angular-Template-Login-Register-AuthGuard/blob/master/site%20images/chat%20box.JPG)
+### 2nd login-guard prevent from going to login page again if you are already logged in
+
+Hope This is helpful to start your project and give it a good shape :)
+
+<br>
+<br>
+
+
 
 
 ## Development server
