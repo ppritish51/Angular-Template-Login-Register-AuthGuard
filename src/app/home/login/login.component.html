@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1>Login</h1>
+                <br>
+                <form class="col s12 white" [formGroup]="userDetail" (ngSubmit)="OnSubmit(userDetail)">
+                    <div class="form-group">
+                        <label>User Name</label>
+                        <input class="form-control validate" type="text" name="UserName" formControlName="UserName" [(ngModel)]="userDetail.UserName" required placeholder="User Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input class="form-control validate" type="password" name="Password" formControlName="Password" [(ngModel)]="userDetail.Password" required minlength="8">
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <button [disabled]="!userDetail.valid" type="submit" class="btn btn-primary">Primary</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
