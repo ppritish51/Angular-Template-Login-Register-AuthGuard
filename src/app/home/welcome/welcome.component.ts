@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcome.component.scss']
 })
 export class WelcomeComponent implements OnInit {
-  //https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/
+  
   constructor() { }
 
   ngOnInit() {
