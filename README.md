@@ -1,6 +1,20 @@
-# Foodie
+# Details
+- This project was generated with Angular CLI version 8.3.20.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+## This template contains:
+
+- Login Page
+- Registration Page
+- Welcome Page(contains link to login and registration page)
+- ChatRoom(accessible after login only)
+
+## In this their 2 auth guard:
+
+- One to stop access to chat room without login
+- Other to stop access for login/registration page once logged in, they can be only accessed again when logged out
+
+# Just clone this and install packages and start to work
+
 
 ## Development server
 
